@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Product Lister</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+	</head>
+	<body>
+		<header id="header">
+			<h1 id="header-content">Product lister</h1>
+			<input id="filter" type="text" placeholder="search items..." />
+		</header>
+		<div class="container">
+			<h2 class="title">Add items</h2>
+			<form class="form">
+				<input type="text" class="form-control" />
+				<input type="submit" class="submit" value="Submit" /><br />
+				<span class="add"></span>
+			</form>
+			<h2 class="title">Items</h2>
+			<ul id="items">
+				<li class="list-group-items">
+					Vegetables and fruit. <button class="btn">x</button>
+				</li>
+				<li class="list-group-items">
+					Dried Goods.<button class="btn">x</button>
+				</li>
+				<li class="list-group-items">
+					Bread & bread spreads.<button class="btn">x</button>
+				</li>
+				<li class="list-group-items">
+					Meat & Fish.<button class="btn">x</button>
+				</li>
+				<li class="list-group-items">Snacks.<button class="btn">x</button></li>
+			</ul>
+			<br />
+		</div>
+		<script src="./assets/js/main.js"></script>
+	</body>
+</html>
